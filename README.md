@@ -1,2 +1,2 @@
 # Jigsaw-puzzle
-Deep Learning Final Project | University of Bologna | Image Processing &amp; Reconstruction | U-Net | Transformers | Attention | Encoder | Decoder
+The task is to reconstruct a complete RGB image of size 96×96 from a set of 9 scrambled image patches of size 28×28×3. The patches originate from a 3×3 partition of the original image, but their spatial arrangement is unknown, and part of the border information has been removed through erosion, making the reconstruction problem ambiguous. The model must therefore infer both the correct relative placement of the patches and the missing visual content required to produce a coherent, artifact-free reconstruction of the original image.
